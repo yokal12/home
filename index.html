@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>YOKAL - Mes Programmes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #181a1b; /* dark background */
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      min-height: 100vh;
+      color: #f0f0f0; /* light text */
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+    .logo {
+      width: 150px;
+      height: auto;
+      margin-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      filter: drop-shadow(0 0 20px #444);
+    }
+    h2 {
+      margin: 0 0 30px 0;
+      font-size: 1.2em;
+      color: #c7c7c7;
+      text-shadow: 0 1px 2px #222;
+    }
+    .programme-card {
+      background: #23262b;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.37);
+      width: 340px;
+      max-width: 90vw;
+      margin: 20px auto 50px auto;
+      padding: 25px 15px 18px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #282828;
+    }
+    .programme-img {
+      width: 160px;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 14px;
+      box-shadow: 0 2px 12px #111;
+    }
+    .programme-title {
+      margin: 0;
+      font-size: 1.15em;
+      font-weight: 600;
+      color: #e5e5e5;
+      text-decoration: none;
+      display: inline-block;
+      padding: 6px 10px;
+    }
+    .programme-title:hover {
+      color: #aedeff;
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: auto;
+      padding: 14px 0 22px 0;
+      font-size: 1em;
+      color: #bbb;
+      background: none;
+      letter-spacing: 0.1em;
+      text-shadow: 0 1px 2px #222;
+    }
+    a.external {
+      color: #4fa7ff;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a.external:hover {
+      color: #aedeff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo YOKAL" class="logo">
+    <h2>Les programmes que j'ai développés pour le moment</h2>
+  </header>
+  <main>
+    <div class="programme-card">
+      <img src="mario.png" alt="Mario at Mushroom Kingdom" class="programme-img">
+      <!-- Le titre redirige vers yokal.42web.io/MARIO -->
+      <a class="programme-title" href="mariopresentation.html">
+        Mario at Mushroom Kingdom
+      </a>
+    </div>
+  </main>
+  <footer>
+    contact : <a class="external" href="mailto:EnvoyezVosVirus@proton.me">EnvoyezVosVirus@proton.me</a> ; 
+    <a class="external" href="https://youtube.com/@yokalYT" target="_blank" rel="noopener noreferrer">youtube.com/@yokalYT</a>
+  </footer>
+</body>
+</html>
